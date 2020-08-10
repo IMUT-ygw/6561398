@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://getbootstrap.com/docs/4.0/examples/dashboard/ -->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Dashboard Template for Bootstrap</title>
+    <!-- Bootstrap core CSS -->
+    <link href="asserts/css/bootstrap.min.css" th:href="@{/webjars/bootstrap/4.0.0/css/bootstrap.css}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="asserts/css/dashboard.css" th:href="@{/asserts/css/dashboard.css}" rel="stylesheet">
+    <style type="text/css">
+        /* Chart.js */
+
+        @-webkit-keyframes chartjs-render-animation {
+            from {
+                opacity: 0.99
+            }
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes chartjs-render-animation {
+            from {
+                opacity: 0.99
+            }
+            to {
+                opacity: 1
+            }
+        }
+
+        .chartjs-render-monitor {
+            -webkit-animation: chartjs-render-animation 0.001s;
+            animation: chartjs-render-animation 0.001s;
+        }
+
+        #warning{
+            position:absolute;
+            color:red;
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+
+
+<!--引入topbar-->
+<div th:insert="~{commons/bar :: topbar}"></div>
+<!--引入topbar-->
+<div class="container-fluid">
+    <div class="row">
+        <!--引入侧边栏 根据标签栏id选择器-->
+        <div th:replace="commons/bar::#sidebar(activeUri='emps3')"></div>
+        <!--引入侧边栏 根据标签栏id选择器-->
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+            <form th:action="@{/addCustomer}" method="post" id="form">
+                <!--发送put请求修改员工数据
+                       页面创建一个post表单 name="_method" 值就是我们请求方式
+                -->
+                <!--此处判断emp！=null 是因为 根据emp/{id}以后 判断是添加方法（post）  还是编辑方法（put）-->
+                <input type="hidden" name="_method" value="put" th:if="${emp!=null}">
+                <!--修改操作应提交具体id   后台根据有无id进行判断是修改 还是添加操作-->
+                <input type="hidden" name="id" th:if="${emp!=null}" th:value="${emp.id}">
+
+
+                <div class="form-group">
+                    <label>会员姓名</label>
+                    <input  type="text" class="form-control" placeholder="用户姓名" name="customerName" th:value="${emp!=null}?${emp.lastName}"  required>
+                </div>
+                <div class="form-group">
+                    <label>性别</label><br>
+                    <label>
+                        <input type="radio" name="optionsRadios"  value="1" th:name="customerGender" checked>
+                        男
+                    </label>
+                    &nbsp;  &nbsp;  &nbsp;  &nbsp;
+                    <label>
+                        <input type="radio" name="optionsRadios"  value="0" th:name="customerGender" checked>
+                        女
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>联系电话</label>
+                    <input  type="text" class="form-control" placeholder="手机号仅可注册一次" name="customerTelephone" th:value="${emp!=null}?${emp.email}"  required>
+                </div>
+                <div class="form-group">
+                    <label>家庭住址</label>
+                    <input type="text" class="form-control" placeholder="家庭住址" name="customerAddress" th:value="${emp!=null}?${emp.email}"  required>
+                </div>
+                <div class="form-group">
+                    <label>登录密码</label>
+                    <input  type="password" class="form-control" placeholder="请设置登录密码" name="customerPassword"  id="password" required>
+                </div>
+                <div class="form-group">
+                    <label>确认密码</label><span id="warning"></span>
+                    <input  type="password" class="form-control" placeholder="确认登录密码" name="password_check" onblur="check()" id="password_check" required>
+                </div>
+                <button id="addCustomerBtn" type="submit" class="btn btn-primary" th:text="${emp ==null}?'注册':'修改'">添加</button>
+                <div class="alert alert-danger" th:if="${not #strings.isEmpty(msg)}" >
+                    <p th:text="${msg}" th:if="${not #strings.isEmpty(msg)}"></p>
+                </div>
+            </form>
+        </main>
+    </div>
+</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="asserts/js/jquery-3.2.1.slim.min.js" th:href="@{/asserts/js/jquery-3.2.1.slim.min.js}"></script>
+<script type="text/javascript" src="asserts/js/popper.min.js" th:href="@{/asserts/js/popper.min.js}"></script>
+<script type="text/javascript" src="asserts/js/bootstrap.min.js" th:href="@{/asserts/js/bootstrap.min.js}"></script>
+
+<!-- Icons -->
+<script type="text/javascript" src="asserts/js/feather.min.js" th:href="@{/asserts/js/feather.min.js}"></script>
+<script>
+    feather.replace()
+</script>
+
+<!-- Graphs -->
+<script type="text/javascript" src="asserts/js/Chart.min.js" th:href="@{/asserts/js/Chart.min.js}"></script>
+<script>
+    function check(){
+        if(document.getElementById("password").value!=
+            document.getElementById("password_check").value)
+        {
+            document.getElementById("warning").innerHTML="两次密码的输入不一致";
+        }else{
+            document.getElementById("warning").innerHTML="";
+        }
+    }
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+2020-04-18 10:07:10.058 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 55 ] - Starting SpringbootYgwApplication on ygw with PID 5088 (G:\ideaSpace\springboot-ygw\target\classes started by nmtl_ygw in G:\ideaSpace\springboot-ygw)
+2020-04-18 10:07:10.144 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 655 ] - The following profiles are active: prod
+2020-04-18 10:07:12.352 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-18 10:07:12.353 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-18 10:07:12.354 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-18 10:07:12.447 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-18 10:07:12.925 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-18 10:07:12.949 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 61 ] - Started SpringbootYgwApplication in 4.635 seconds (JVM running for 8.145)
+2020-04-18 10:07:26.075 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-18 10:09:08.521 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 55 ] - Starting SpringbootYgwApplication on ygw with PID 10168 (G:\ideaSpace\springboot-ygw\target\classes started by nmtl_ygw in G:\ideaSpace\springboot-ygw)
+2020-04-18 10:09:08.523 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 655 ] - The following profiles are active: prod
+2020-04-18 10:09:11.312 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-18 10:09:11.314 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-18 10:09:11.314 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-18 10:09:11.491 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-18 10:09:11.951 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-18 10:09:11.977 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 61 ] - Started SpringbootYgwApplication in 4.19 seconds (JVM running for 7.716)
+2020-04-18 10:09:20.952 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 55 ] - Starting SpringbootYgwApplication on ygw with PID 8380 (G:\ideaSpace\springboot-ygw\target\classes started by nmtl_ygw in G:\ideaSpace\springboot-ygw)
+2020-04-18 10:09:20.956 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 655 ] - The following profiles are active: prod
+2020-04-18 10:09:22.420 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-18 10:09:22.422 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-18 10:09:22.422 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-18 10:09:22.537 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-18 10:09:22.880 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-18 10:09:22.902 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 61 ] - Started SpringbootYgwApplication in 2.673 seconds (JVM running for 4.45)
+2020-04-18 10:09:33.901 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-18 10:11:11.471 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 55 ] - Starting SpringbootYgwApplication on ygw with PID 9808 (G:\ideaSpace\springboot-ygw\target\classes started by nmtl_ygw in G:\ideaSpace\springboot-ygw)
+2020-04-18 10:11:11.475 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 655 ] - The following profiles are active: prod
+2020-04-18 10:11:13.807 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-18 10:11:13.809 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-18 10:11:13.809 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-18 10:11:13.936 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-18 10:11:14.429 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-18 10:11:14.456 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 61 ] - Started SpringbootYgwApplication in 3.718 seconds (JVM running for 5.526)
+2020-04-18 10:11:19.966 [ http-nio-8080-exec-2 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-18 10:12:10.654 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 55 ] - Starting SpringbootYgwApplication on ygw with PID 7360 (G:\ideaSpace\springboot-ygw\target\classes started by nmtl_ygw in G:\ideaSpace\springboot-ygw)
+2020-04-18 10:12:10.659 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 655 ] - The following profiles are active: prod
+2020-04-18 10:12:12.681 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-18 10:12:12.682 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-18 10:12:12.683 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-18 10:12:12.765 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-18 10:12:13.127 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-18 10:12:13.150 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 61 ] - Started SpringbootYgwApplication in 3.136 seconds (JVM running for 5.141)
+2020-04-18 10:12:17.801 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-18 10:12:40.474 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 55 ] - Starting SpringbootYgwApplication on ygw with PID 9572 (G:\ideaSpace\springboot-ygw\target\classes started by nmtl_ygw in G:\ideaSpace\springboot-ygw)
+2020-04-18 10:12:40.508 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 655 ] - The following profiles are active: prod
+2020-04-18 10:12:41.874 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-18 10:12:41.875 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-18 10:12:41.876 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-18 10:12:41.991 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-18 10:12:42.394 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-18 10:12:42.423 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 61 ] - Started SpringbootYgwApplication in 2.585 seconds (JVM running for 3.999)
+2020-04-18 10:59:07.382 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 55 ] - Starting SpringbootYgwApplication on ygw with PID 6040 (G:\ideaSpace\springboot-ygw\target\classes started by nmtl_ygw in G:\ideaSpace\springboot-ygw)
+2020-04-18 10:59:07.388 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 655 ] - The following profiles are active: prod
+2020-04-18 10:59:09.210 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-18 10:59:09.212 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-18 10:59:09.214 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-18 10:59:09.492 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-18 10:59:09.978 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-18 10:59:10.010 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 61 ] - Started SpringbootYgwApplication in 3.387 seconds (JVM running for 5.24)
+2020-04-18 10:59:19.156 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-18 10:59:41.850 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 55 ] - Starting SpringbootYgwApplication on ygw with PID 7392 (G:\ideaSpace\springboot-ygw\target\classes started by nmtl_ygw in G:\ideaSpace\springboot-ygw)
+2020-04-18 10:59:41.855 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 655 ] - The following profiles are active: prod
+2020-04-18 10:59:43.394 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-18 10:59:43.395 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-18 10:59:43.396 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-18 10:59:43.542 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-18 10:59:44.054 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-18 10:59:44.085 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 61 ] - Started SpringbootYgwApplication in 2.833 seconds (JVM running for 4.555)
+2020-04-18 11:00:00.705 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-18 11:03:26.658 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 55 ] - Starting SpringbootYgwApplication on ygw with PID 5152 (G:\ideaSpace\springboot-ygw\target\classes started by nmtl_ygw in G:\ideaSpace\springboot-ygw)
+2020-04-18 11:03:26.661 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 655 ] - The following profiles are active: prod
+2020-04-18 11:03:28.167 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-18 11:03:28.168 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-18 11:03:28.168 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-18 11:03:28.291 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-18 11:03:28.726 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-18 11:03:28.752 [ main ] - [ INFO  ] [ com.imut.springboot.SpringbootYgwApplication : 61 ] - Started SpringbootYgwApplication in 2.784 seconds (JVM running for 4.466)
+2020-04-18 11:03:34.202 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'

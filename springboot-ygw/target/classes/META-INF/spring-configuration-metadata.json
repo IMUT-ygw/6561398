@@ -1,0 +1,33 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.imut.springboot.pojo.Person",
+      "sourceType": "com.imut.springboot.pojo.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.imut.springboot.pojo.Person",
+      "defaultValue": 0
+    },
+    {
+      "name": "person.date",
+      "type": "java.util.Date",
+      "sourceType": "com.imut.springboot.pojo.Person"
+    },
+    {
+      "name": "person.list",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.imut.springboot.pojo.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.imut.springboot.pojo.Person"
+    }
+  ],
+  "hints": []
+}

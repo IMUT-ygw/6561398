@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--beans中添加了许多约束，即像url一样的代码，其作用就是约束该.xml文件中可以使用哪些标签-->
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+							http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd
+							http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.2.xsd
+							 http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+    <!--将Person类对象交给Spring来管理，我们不需要手动去new这个对象-->
+    <bean class="pojo.Person" id="person" scope="singleton" init-method="init" destroy-method="destroy">
+        <property name="id" value="1"/>
+        <property name="name" value="ygw"/>
+    </bean>
+
+    <!--后置处理器-->
+    <bean class="serivce.AfterHandler"/>
+
+</beans>

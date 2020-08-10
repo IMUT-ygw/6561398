@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="btn">请求</button>
+</body>
+<script src="js/jquery-1.10.2.min.js">
+    $("#btn").click(function () {
+        $.ajax({
+            url:'http://localhost:8081/hello',
+            dataType:'text',
+            type:'GET',
+            success:function (data) {
+                $("#btn").html(data);
+            }
+        })
+    })
+</script>
+</html>

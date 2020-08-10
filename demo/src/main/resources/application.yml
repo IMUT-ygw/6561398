@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    active: dev
+
+person:
+  username: ygw
+  age: 23
+  list:
+    - asd
+    - sdf
+
+---
+spring:
+  profiles: dev
+server:
+  port: 8081
+---
+spring:
+  profiles: prod
+server:
+  port: 8082

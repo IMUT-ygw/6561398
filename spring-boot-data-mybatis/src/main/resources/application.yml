@@ -1,0 +1,34 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mybatis?serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource #切换数据源
+#   数据源其他配置   如果直接写在配置文件中不会有效果  所以要讲数据源加入到容器，并把这些属性进行意义对应赋值
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    #   配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+    filters: stat,wall,slf4j
+    maxPoolPreparedStatementPerConnectionSize: 20
+    useGlobalDataSourceStat: true
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+    schema: #表初始化语句 启动时创建   data为数据初始化
+      - classpath:sql/department.sql
+      - classpath:sql/employee.sql
+    initialization-mode: never   #Springboot启动还是先检测这个语句，再去检测schema或data  当第一次初始化后 就不要在执行初始化了
+#扫描mybatis主配置文件以及对应mapper的配置文件路径
+mybatis:
+  mapper-locations: classpath:com/imut/mapper/*.xml
+  config-location: classpath:com/mybatis-config.xml
+server:
+  port: 8081

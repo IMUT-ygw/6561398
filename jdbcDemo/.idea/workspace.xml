@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd5a6d6e-2d40-4c52-abd8-56f920cd8f6c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\repository" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="1Xyi2Jd9VIglghiNXgoEemLAXDL" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\ideaSpace\jdbcDemo\src\main\resources" />
+      <recent name="G:\ideaSpace\jdbcDemo" />
+      <recent name="G:\ideaSpace\jdbcDemo\src" />
+      <recent name="G:\ideaSpace\jdbcDemo\src\test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.SelectAll.findAll">
+    <configuration name="AllSql.testAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbcDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imut.preparestatement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imut.preparestatement" />
+      <option name="MAIN_CLASS_NAME" value="com.imut.preparestatement.AllSql" />
+      <option name="METHOD_NAME" value="testAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectionTest.testConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbcDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imut.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imut.test" />
+      <option name="MAIN_CLASS_NAME" value="com.imut.test.ConnectionTest" />
+      <option name="METHOD_NAME" value="testConnection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrepareStatement.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbcDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imut.preparestatement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imut.preparestatement" />
+      <option name="MAIN_CLASS_NAME" value="com.imut.preparestatement.PrepareStatement" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrepareStatement.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbcDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imut.preparestatement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imut.preparestatement" />
+      <option name="MAIN_CLASS_NAME" value="com.imut.preparestatement.PrepareStatement" />
+      <option name="METHOD_NAME" value="update" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectAll.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbcDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imut.preparestatement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imut.preparestatement" />
+      <option name="MAIN_CLASS_NAME" value="com.imut.preparestatement.SelectAll" />
+      <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SelectAll.findAll" />
+        <item itemvalue="JUnit.AllSql.testAll" />
+        <item itemvalue="JUnit.PrepareStatement.update" />
+        <item itemvalue="JUnit.PrepareStatement.testInsert" />
+        <item itemvalue="JUnit.ConnectionTest.testConnection" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd5a6d6e-2d40-4c52-abd8-56f920cd8f6c" name="Default Changelist" comment="" />
+      <created>1582024526155</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582024526155</updated>
+      <workItem from="1582024529145" duration="3236000" />
+      <workItem from="1582074896643" duration="4613000" />
+      <workItem from="1582336579568" duration="7063000" />
+      <workItem from="1582790846475" duration="1960000" />
+      <workItem from="1582851004234" duration="219000" />
+      <workItem from="1586162166758" duration="2834000" />
+      <workItem from="1586220513739" duration="4498000" />
+      <workItem from="1586673872419" duration="1294000" />
+      <workItem from="1592439378686" duration="6521000" />
+      <workItem from="1593825035280" duration="2964000" />
+      <workItem from="1594196806723" duration="2915000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
